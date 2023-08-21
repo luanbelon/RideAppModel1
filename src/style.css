@@ -1,0 +1,298 @@
+/* Layout desenhado por Saddam Shadab 
+   Distribuido gratuitamente via Figma
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+body {
+  background: rgba(243, 243, 243, 0.6039215686);
+}
+
+.main-color {
+  color: #E14D2D;
+}
+
+.main-color-bg {
+  background: #E14D2D;
+}
+
+header {
+  background: #fff;
+  height: 8vh;
+}
+header .logo-header {
+  width: 8rem;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  margin: 0;
+  align-items: center;
+}
+header .btn.btn-menu {
+  background-color: #E14D2D;
+  color: #fff;
+  font-weight: 500;
+}
+
+main .banner-home {
+  padding: 4rem 0;
+}
+main .banner-home #content-banner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0 5rem 0 0;
+  font-size: 3rem;
+}
+@media (max-width: 1024px) {
+  main .banner-home #content-banner h1 {
+    font-size: 2rem;
+  }
+}
+main .banner-home #content-banner p {
+  padding: 0 8rem 0 0;
+  color: #9E9DA2;
+}
+@media (max-width: 1024px) {
+  main .banner-home #content-banner p {
+    padding: 2rem 0;
+  }
+}
+main .banner-home #content-banner #buttons-area {
+  padding: 0 12px;
+}
+main .banner-home #content-banner #buttons-area button {
+  width: 30%;
+  background: #000;
+  color: #fff;
+  padding: 0.7rem 1.4rem;
+}
+main .banner-home #content-banner #buttons-area button img {
+  width: 1.2rem;
+  margin-right: 0.5rem;
+}
+@media (max-width: 1024px) {
+  main .banner-home #content-banner #buttons-area button {
+    width: 45%;
+  }
+}
+main .banner-home #ilustracao-banner {
+  text-align: center;
+}
+main .banner-home #ilustracao-banner img {
+  width: 70%;
+}
+main .apply-area {
+  padding: 1rem 0;
+}
+main .apply-area div.main-color-bg {
+  border-radius: 0.5rem;
+  padding: 3rem;
+}
+main .apply-area div.main-color-bg h2 {
+  font-size: 1.6rem;
+  color: #fff;
+  width: 30%;
+  margin: 0;
+  font-weight: 400;
+}
+@media (max-width: 1024px) {
+  main .apply-area div.main-color-bg h2 {
+    font-size: 1.2rem;
+  }
+}
+main .apply-area div.main-color-bg form {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+main .apply-area div.main-color-bg form input {
+  border: none;
+  border-radius: 5px;
+  height: 3rem;
+  padding: 0.5rem 1rem;
+}
+main .apply-area div.main-color-bg form input[type=tel] {
+  width: 70%;
+}
+main .apply-area div.main-color-bg form input[type=submit] {
+  background: #000;
+  color: #fff;
+}
+main .apply-area div.main-color-bg form input[type=submit]:hover {
+  background: #fff;
+  color: #E14D2D;
+}
+main .como-funciona {
+  padding: 4rem 0;
+}
+main .como-funciona h3 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+main .como-funciona p {
+  width: 40%;
+  text-align: center;
+  color: #9E9DA2;
+}
+main .como-funciona .itens-como-funciona-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+main .como-funciona .itens-como-funciona-container .itens-como-funciona {
+  width: 33%;
+}
+main .como-funciona .itens-como-funciona-container .itens-como-funciona .item h4 {
+  color: #E14D2D;
+  font-weight: 700;
+  border: dashed 5px #E14D2D;
+  border-radius: 5rem;
+  width: 3rem;
+  padding: 1rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .como-funciona .itens-como-funciona-container .itens-como-funciona .item h5 {
+  font-weight: 700;
+  margin: 0.8rem 0;
+}
+@media (max-width: 1024px) {
+  main .como-funciona .itens-como-funciona-container .itens-como-funciona .item p {
+    font-size: 14px;
+  }
+  main .como-funciona .itens-como-funciona-container .itens-como-funciona .item h5 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1024px) {
+  main .como-funciona .itens-como-funciona-container .mobile-area img {
+    width: 100%;
+  }
+}
+main .itens-como-funciona.right {
+  margin-left: 4rem;
+}
+main .itens-como-funciona.right .item {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+main .itens-como-funciona.right .item p {
+  width: 100%;
+  text-align: left;
+}
+main .itens-como-funciona.left {
+  margin-right: 4rem;
+}
+main .itens-como-funciona.left .item {
+  display: flex;
+  flex-direction: column;
+  align-items: self-end;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+main .itens-como-funciona.left .item p {
+  width: 100%;
+  text-align: right;
+}
+main .beneficios {
+  padding: 4rem 0;
+}
+main .beneficios h3 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 4rem;
+}
+main .beneficios .beneficios-container .itens-beneficios .item {
+  width: 80%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 2rem 4rem;
+  margin: 0 0 3rem 0;
+}
+main .beneficios .beneficios-container .itens-beneficios .item h4 {
+  font-size: 4rem;
+  color: #E14D2D;
+  margin-right: 2rem;
+}
+main .beneficios .beneficios-container .itens-beneficios .item h5 {
+  width: 50%;
+  font-weight: 600;
+}
+main .beneficios .beneficios-container .itens-beneficios .item p {
+  width: 70%;
+  color: #9E9DA2;
+}
+main .beneficios .beneficios-container .itens-beneficios .item:nth-child(1) {
+  margin-left: 4rem;
+}
+main .beneficios .beneficios-container .itens-beneficios .item:nth-child(2) {
+  margin-left: -4rem;
+}
+main .beneficios .beneficios-container .itens-beneficios .item:nth-child(3) {
+  margin-left: 4rem;
+}
+
+footer {
+  padding: 2rem 0;
+  background: #fff;
+  color: #9E9DA2;
+}
+footer .footer-content div {
+  width: 25%;
+}
+footer .footer-content div:nth-child(1) img {
+  width: 60%;
+}
+footer .footer-content div:nth-child(1n+1) h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+footer .footer-content div:nth-child(1n+1) ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer .footer-content div:nth-child(1n+1) ul li {
+  font-size: 0.9rem;
+}
+footer .footer-content #buttons-area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 12px;
+}
+footer .footer-content #buttons-area button {
+  width: 100%;
+  background: #000;
+  color: #fff;
+}
+footer .footer-content #buttons-area button img {
+  width: 1.2rem;
+  margin-right: 0.5rem;
+}
+footer #copy {
+  color: #9E9DA2;
+  margin: 2rem 0 0 0;
+  padding: 1rem 0;
+  border-top: solid 1px #E14D2D;
+}
+footer #copy a {
+  list-style: none;
+  text-decoration: none;
+  color: #E14D2D;
+}/*# sourceMappingURL=style.css.map */

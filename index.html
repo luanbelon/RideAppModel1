@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/style.css">
+
+    <title>Ride - App Layout 1</title>
+</head>
+<body>
+    <header class="container-fluid d-flex align-items-center justify-content-center">
+        <section class="container row w-100">
+            <div id="logo-area" class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <img src="./src/img/logo.svg" alt="Logo" class="logo-header">
+            </div>
+            <div class="col-sm-6 col-md-8 col-lg-9 col-xl-9 d-flex align-items-center justify-content-end"> 
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>Como funciona?</li>
+                        <li>Nossos beneficios</li>
+                        <li class="btn btn-menu">Precisa de ajuda?</li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <main class="container-fluid d-flex align-items-center flex-column">
+        <section class="row banner-home d-flex align-items-center justify-content-center container">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6" id="content-banner">
+                <h1>Baixe o app, economize dinheiro, faça amizades.</h1>
+                <p>Simples e grátis. Faça sua parte na redução da Pegada de Carbono e ajude a Mãe Natureza a manter sua beleza. 
+                   Então, o que você está esperando? Vamos correr juntos</p>
+                <div class="row d-flex gap-3" id="buttons-area">
+                    <button class="btn"><img src="./src/img/playstore.svg" alt="" srcset="">DOWNLOAD</button>
+                    <button class="btn"><img src="./src/img/applestore.svg" alt="" srcset="">DOWNLOAD</button>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6" id="ilustracao-banner">
+                <img src="./src/img/ilustração-banner-home.svg" alt="">
+            </div>
+        </section>
+
+        <section class="row apply-area d-flex align-items-center justify-content-center container" >
+            <div class="main-color-bg d-flex align-items-center justify-content-between">
+                <h2>Vamos. Obter um link para dirigir no aplicativo.</h2>
+                <form action="">
+                    <input type="tel" name="" id="" placeholder="Digite o seu numero de telefone aqui">
+                    <input type="submit" value="Cadastrar Motorista">
+                </form>
+            </div>
+        </section>
+
+        <section class="row como-funciona d-flex align-items-center justify-content-center container" >
+            <div class="d-flex align-items-center justify-content-between flex-column">
+                <h3>Como <span class="main-color">Funciona</span></h3>
+                <p>Baixe e instale o aplicativo tere. Digite seu número de telefone e faça sua conta de usuário. 
+                    quando aprovado, você pode começar a dirigir.</p>
+                <section class="itens-como-funciona-container d-flex w-100">
+                    <div class="itens-como-funciona left">
+                        <div class="item">
+                            <h4>1</h4>
+                            <h5>SOLICITE UMA CORRIDA</h5>
+                            <p>Tem que chegar ao escritório ou ir às compras?
+                                Basta colocar sua localização atual e destino e procurar uma carona que combina com você</p>
+                        </div>
+                        <div class="item">
+                            <h4>3</h4>
+                            <h5>NOTIFICAÇÕES INSTANTANEAS</h5>
+                            <p>Receba notificações instantâneas para seus passeios e esteja em 
+                                contato com outros pilotos o tempo todo</p>
+                        </div>
+                    </div>
+                    <div class="itens-como-funciona mobile-area">
+                        <img src="./src/img/mobile.svg" alt="">
+                    </div>
+                    <div class="itens-como-funciona right">
+                        <div class="item">
+                            <h4>2</h4>
+                            <h5>POSTE UAM CORRIDA</h5>
+                            <p>Indo para algum lugar, mas odeio viajar sozinho -
+                                basta postar os detalhes do seu passeio e publicá-lo</p>
+                        </div>
+                        <div class="item">
+                            <h4>4</h4>
+                            <h5>PAGAMENTO SEM DINHEIRO</h5>
+                            <p>Pagamento facilitado usando sua própria carteira - sem mais dinheiro para carregar</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="row beneficios d-flex align-items-center justify-content-center container" >
+            <div class="d-flex align-items-center justify-content-between flex-column">
+                <h3><span class="main-color">Nossos</span> beneficios</h3>
+                <section class="beneficios-container d-flex w-100">
+                    <div class="itens-beneficios w-100 d-flex flex-column align-items-center">
+                        <div class="item d-flex align-items-center justify-content-between">
+                            <div>
+                                <div class="d-flex align-items-center">
+                                    <h4>01.</h4>
+                                    <h5>Jornada de trabalho flexível</h5>
+                                </div>
+                                <p>Você pode decidir quando e quanto
+                                hora que você quer dirigir.</p>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <img class="w-75" src="./src/img/benefits1.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="item d-flex align-items-center justify-content-between">
+                            <div class="d-flex justify-content-end">
+                                <img class="w-75" src="./src/img/benefits2.svg" alt="">
+                            </div>
+                            <div>
+                                <div class="d-flex align-items-center">
+                                    <h4>02.</h4>
+                                    <h5>Ganhos</h5>
+                                </div>
+                                <p>Ao dirigir com tere você pode
+                                    ganhar mais.</p>
+                            </div>
+                            
+                        </div>
+                        <div class="item d-flex align-items-center justify-content-between">
+                            <div>
+                                <div class="d-flex align-items-center">
+                                    <h4>03.</h4>
+                                    <h5>Jornada de trabalho flexível</h5>
+                                </div>
+                                <p>Você pode decidir quando e quanto
+                                hora que você quer dirigir.</p>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <img class="w-75" src="./src/img/benefits3.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>    
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="container-fluid d-flex align-items-center justify-content-center">
+        <section class="row footer-container d-flex align-items-center justify-content-center container" >
+            <div class="d-flex align-items-center justify-content-between flex-column w-100">
+                <div class="footer-content d-flex w-100">
+                    <div>
+                        <img src="./src/img/logo-footer.svg" alt="logo"> 
+                    </div>
+                    <div>
+                        <h5>Seja nosso amigo</h5>
+                        <ul>
+                            <li>3, Season Park, Jakarta</li>
+                            <li>support@foodyar.co,id</li>
+                            <li>021 - 1111 - 2222</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>Seja nosso amigo</h5>
+                        <ul>
+                            <li>3, Season Park, Jakarta</li>
+                            <li>support@foodyar.co,id</li>
+                            <li>021 - 1111 - 2222</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="row d-flex gap-3" id="buttons-area">
+                            <button class="btn"><img src="./src/img/playstore.svg" alt="" srcset="">DOWNLOAD</button>
+                            <button class="btn"><img src="./src/img/applestore.svg" alt="" srcset="">DOWNLOAD</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 d-flex justify-content-between" id="copy">
+                    <div>Desenvolvido por por <a href="#">Agencia Oito</a></div>
+                    <div>Layout desenhado por <a href="https://www.figma.com/@saddamshadab" target="_blank">Saddam Shadab</a></div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
